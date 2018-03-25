@@ -16,16 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface JWInfiniteCollectionView : UICollectionView
 
 /**
- This flags current collection view to be a infinitely-scrolling collection or 
- a normal collection view that bounces when it hits its end. 
- 
- Setting this value will cause collection to reload its data. 
- 
- The default value is YES.
- */
-@property (nonatomic, assign, getter=isInfinite) BOOL infinite;
-
-/**
  Override the disignated intializer;
 
  @param frame The collection view's frame.

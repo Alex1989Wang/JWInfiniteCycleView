@@ -22,9 +22,6 @@
              @"layout object must be of class JWInfiniteCollectionViewFlowLayout");
     self = [super initWithFrame:frame
            collectionViewLayout:layout];
-    if (self) {
-        _infinite = YES;
-    }
     return self;
 }
 
