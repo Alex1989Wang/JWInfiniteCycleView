@@ -13,7 +13,8 @@ JWInfiniteCollectionView pads only a few extra duplicated items both at the star
 
 ## How Infinite-scrolling Works 
 
-- Pad extra items at both the left and right side (brown rectangles) of the original data set (black rectangles) to achieve larger scrollable area; This is similar to having a large duplicated data set, but difference is the amount;
+The infinite scrolling is made possible by padding extra items at both the left and right side (brown rectangles) of the original data set (black rectangles) to achieve larger scrollable area; This is similar to having a large duplicated data set, but difference is the amount.
+
 - At start, the collection view’s contentOffset is calculated to show only the original data set (drawn in black rectangles);
 - When the user scrolls right and contentOffset hits the trigger value, we reset contentOffset to show same visual results; but actually different data;
 - When the user scrolls left, the same logic is used.
