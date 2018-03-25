@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JWInfiniteCollectionView_Example' do
+  pod 'JWInfiniteCollectionView', :path => '../'
+
+  target 'JWInfiniteCollectionView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
