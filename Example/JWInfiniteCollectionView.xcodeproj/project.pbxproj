@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JWAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* JWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +21,11 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B44C2C271F53905EAE3BD87B /* Pods_JWInfiniteCollectionView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F5A1FC9ADD1E5E6A577775 /* Pods_JWInfiniteCollectionView_Example.framework */; };
+		C29B056A20678F7B0015F325 /* JWInfiniteCollectionViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B056920678F7B0015F325 /* JWInfiniteCollectionViewTestController.m */; };
+		C29B056D20678F970015F325 /* JWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B056C20678F970015F325 /* JWCollectionViewCell.m */; };
+		C2D25A9D20678D6E002D987F /* JWMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D25A9B20678D6E002D987F /* JWMainTableViewController.m */; };
+		C2D25A9E20678D6E002D987F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D25A9C20678D6E002D987F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		03F5A1FC9ADD1E5E6A577775 /* Pods_JWInfiniteCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWInfiniteCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A32D92F37ED6498F5E91485 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A32D92F37ED6498F5E91485 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		53B3AF4D650CE1C024BBC84C /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWInfiniteCollectionView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWInfiniteCollectionView_Example/Pods-JWInfiniteCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JWInfiniteCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWInfiniteCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,8 +52,6 @@
 		6003F59B195388D20070C39A /* JWInfiniteCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* JWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* JWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* JWInfiniteCollectionView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWInfiniteCollectionView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,10 +62,16 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78E5665A6CDB6E1878DCAAD6 /* Pods_JWInfiniteCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWInfiniteCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F51C3C3542D377EF65A6B1E /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWInfiniteCollectionView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWInfiniteCollectionView_Tests/Pods-JWInfiniteCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A551E24D505E717A311EBE8 /* JWInfiniteCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JWInfiniteCollectionView.podspec; path = ../JWInfiniteCollectionView.podspec; sourceTree = "<group>"; };
+		9A551E24D505E717A311EBE8 /* JWInfiniteCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JWInfiniteCollectionView.podspec; path = ../JWInfiniteCollectionView.podspec; sourceTree = "<group>"; };
+		C29B056820678F7B0015F325 /* JWInfiniteCollectionViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWInfiniteCollectionViewTestController.h; sourceTree = "<group>"; };
+		C29B056920678F7B0015F325 /* JWInfiniteCollectionViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWInfiniteCollectionViewTestController.m; sourceTree = "<group>"; };
+		C29B056B20678F970015F325 /* JWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionViewCell.h; sourceTree = "<group>"; };
+		C29B056C20678F970015F325 /* JWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCollectionViewCell.m; sourceTree = "<group>"; };
+		C2D25A9A20678D6E002D987F /* JWMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWMainTableViewController.h; sourceTree = "<group>"; };
+		C2D25A9B20678D6E002D987F /* JWMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWMainTableViewController.m; sourceTree = "<group>"; };
+		C2D25A9C20678D6E002D987F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EC43CA6D932502897D5A0573 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWInfiniteCollectionView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWInfiniteCollectionView_Tests/Pods-JWInfiniteCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE1754008074B3314E7B9A34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE1754008074B3314E7B9A34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EE3B2B7EE6A72041D8AF93FF /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWInfiniteCollectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWInfiniteCollectionView_Example/Pods-JWInfiniteCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,11 +140,12 @@
 			children = (
 				6003F59C195388D20070C39A /* JWAppDelegate.h */,
 				6003F59D195388D20070C39A /* JWAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* JWViewController.h */,
-				6003F5A6195388D20070C39A /* JWViewController.m */,
+				C2D25A9A20678D6E002D987F /* JWMainTableViewController.h */,
+				C2D25A9B20678D6E002D987F /* JWMainTableViewController.m */,
+				C2D25A9C20678D6E002D987F /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				C2D25A9F20678DB9002D987F /* TestExamples */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for JWInfiniteCollectionView";
@@ -196,6 +203,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C2D25A9F20678DB9002D987F /* TestExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C2D25AA020678DB9002D987F /* RandomDataSet */,
+			);
+			path = TestExamples;
+			sourceTree = "<group>";
+		};
+		C2D25AA020678DB9002D987F /* RandomDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				C29B056820678F7B0015F325 /* JWInfiniteCollectionViewTestController.h */,
+				C29B056920678F7B0015F325 /* JWInfiniteCollectionViewTestController.m */,
+				C29B056B20678F970015F325 /* JWCollectionViewCell.h */,
+				C29B056C20678F970015F325 /* JWCollectionViewCell.m */,
+			);
+			path = RandomDataSet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,6 +276,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Alex1989Wang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Y39R442P5T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,7 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				C2D25A9E20678D6E002D987F /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -404,8 +433,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* JWAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* JWViewController.m in Sources */,
+				C29B056A20678F7B0015F325 /* JWInfiniteCollectionViewTestController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C2D25A9D20678D6E002D987F /* JWMainTableViewController.m in Sources */,
+				C29B056D20678F970015F325 /* JWCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,9 +564,11 @@
 			baseConfigurationReference = EE3B2B7EE6A72041D8AF93FF /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y39R442P5T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JWInfiniteCollectionView/JWInfiniteCollectionView-Prefix.pch";
 				INFOPLIST_FILE = "JWInfiniteCollectionView/JWInfiniteCollectionView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +581,11 @@
 			baseConfigurationReference = 53B3AF4D650CE1C024BBC84C /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y39R442P5T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JWInfiniteCollectionView/JWInfiniteCollectionView-Prefix.pch";
 				INFOPLIST_FILE = "JWInfiniteCollectionView/JWInfiniteCollectionView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
