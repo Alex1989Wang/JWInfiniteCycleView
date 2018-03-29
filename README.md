@@ -9,14 +9,14 @@ Sometimes, your app’s UX designer wants infinite scroll for one of your collec
 
 But, a large duplicated data will inevitably introduce extra overhead by having a large amount of UICollectionViewLayoutAttributes. Besides, what if the user is bored to death and just sits there for a day to scroll your collection view? The chance for this to happen might be small, but, after all, having a large duplicated data set is not a very elegant solution.
 
-JWInfiniteCollectionView pads only a few extra duplicated items both at the start and end of your data set. In this way, it avoids the some overhead introduced by having a large duplicated data set. 
+JWInfiniteCollectionView pads only a few extra duplicated items both at the start and end of your data set. In this way, it avoids most of the overhead introduced by having a large duplicated data set, if not all. 
 
 ## How Infinite-scrolling Works 
 
 The infinite scrolling is made possible by padding extra items at both the left and right side (brown rectangles) of the original data set (black rectangles) to achieve larger scrollable area; This is similar to having a large duplicated data set, but difference is the amount.
 
 - At start, the collection view’s contentOffset is calculated to show only the original data set (drawn in black rectangles);
-- When the user scrolls right and contentOffset hits the trigger value, we reset contentOffset to show same visual results; but actually different data;
+- When the user scrolls right and contentOffset hits the trigger value, we reset contentOffset to show same visual results; but actually padded data set;
 - When the user scrolls left, the same logic is used.
 
 <div align='center'>
