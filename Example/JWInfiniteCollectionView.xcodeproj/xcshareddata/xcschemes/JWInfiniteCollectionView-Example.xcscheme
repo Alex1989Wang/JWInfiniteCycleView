@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -35,6 +36,16 @@
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "JWInfiniteCollectionView_Tests.xctest"
                BlueprintName = "JWInfiniteCollectionView_Tests"
+               ReferencedContainer = "container:JWInfiniteCollectionView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EE3B537120863124007E7684"
+               BuildableName = "JWInfiniteCollectionView_ExampleUITests.xctest"
+               BlueprintName = "JWInfiniteCollectionView_ExampleUITests"
                ReferencedContainer = "container:JWInfiniteCollectionView.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -55,6 +66,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"

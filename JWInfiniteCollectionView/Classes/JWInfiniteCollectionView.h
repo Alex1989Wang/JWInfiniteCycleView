@@ -11,7 +11,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 /**
- The collection view which can scroll infinitely. 
+ The collection view which can scroll infinitely.
+ 
+ @note Even though the infinite scrolling capability is provided, some of the collection
+ view's functionalities are sacrificed. Notably, the collection view will only have one
+ section of items and section titles are disabled.
  */
 @interface JWInfiniteCollectionView : UICollectionView
 

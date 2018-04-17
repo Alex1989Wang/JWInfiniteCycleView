@@ -35,10 +35,12 @@ numberOfItemsInSection:(NSInteger)section {
     ((indexPath.row - infiniteLayout.leftPaddedCount)%numberOfItems + numberOfItems)%(numberOfItems) :
     (indexPath.row - infiniteLayout.leftPaddedCount)%(numberOfItems);
     NSIndexPath *ajustedIndexPath = [NSIndexPath indexPathForItem:itemIndex inSection:indexPath.section];
-    return ([self.actualDataSource respondsToSelector:
-            @selector(collectionView:cellForItemAtIndexPath:)]) ?
-    [self.actualDataSource collectionView:collectionView
-                   cellForItemAtIndexPath:ajustedIndexPath] : nil;
+    //This method must always return a valid view object.
+    NSAssert([self.actualDataSource respondsToSelector:
+              @selector(collectionView:cellForItemAtIndexPath:)],
+             @"data source must implement this method.");
+    return [self.actualDataSource collectionView:collectionView
+                          cellForItemAtIndexPath:ajustedIndexPath];
 }
 
 - (NSInteger)numberOfItemsInCollectionView:(UICollectionView *)collectionView {

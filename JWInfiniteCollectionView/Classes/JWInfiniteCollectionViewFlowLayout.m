@@ -35,6 +35,7 @@
     
     //does collection has size
     if (CGRectIsEmpty(self.collectionView.bounds)) {
+        NSLog(@"Collection view bounds empty; no need to calculate layout.");
         return;
     }
     
@@ -116,19 +117,24 @@
     CGFloat itemSpan = originalCount * (itemSpacing + itemWidth) - itemSpacing;
     _itemSpan = itemSpan;
     CGFloat collectionWidth = self.collectionView.bounds.size.width;
-    //if original items can't fit into the bounds
+    /*
+     The goal here is try to have at leat three pages of itmes (WITH a few duplicates).
+     - If the itemSpan is bigger than collectionWidth, theoretically, only one page of duplicate
+     at both the left and right end wount do the trick.
+     - If the itemSpan is less than collectionWidth, we will have a bit more than
+     three pages of items;
+     */
     if (itemSpan > collectionWidth) {
-        NSInteger oneScreenItemCount = floor(collectionWidth / (itemSpacing + itemWidth));
-        _leftPaddedCount = oneScreenItemCount + 1;
+        NSInteger onePageCount = ceil(collectionWidth + itemWidth/ (itemSpacing + itemWidth));
+        _leftPaddedCount = onePageCount;
         _rightPaddedCount = _leftPaddedCount;
         _minScrollableContentOffsetX = _leftPaddedCount * (itemWidth + itemSpacing) - collectionWidth;
         _maxScrollableContentOffsetX = (_leftPaddedCount + originalCount) * (itemWidth + itemSpacing) - itemSpacing;
     }
     else {
-        NSInteger itemsTotal =
-        floor((3 * collectionWidth - itemSpan)/(itemSpacing + itemWidth)) + 2;
+        NSInteger itemsTotal = ceil((3 * collectionWidth + itemWidth)/(itemSpacing + itemWidth));
         NSInteger itemsPadded = itemsTotal - originalCount;
-        _leftPaddedCount = floor((1 * collectionWidth)/(itemSpacing + itemWidth)) + 1;
+        _leftPaddedCount = ceil((1 * collectionWidth + itemWidth)/(itemSpacing + itemWidth));
         _rightPaddedCount = itemsPadded - _leftPaddedCount;
         _minScrollableContentOffsetX = _leftPaddedCount * (itemWidth + itemSpacing) - collectionWidth;
         _maxScrollableContentOffsetX = (_leftPaddedCount + originalCount) * (itemWidth + itemSpacing) - itemSpacing;

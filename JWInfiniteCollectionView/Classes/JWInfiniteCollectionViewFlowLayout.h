@@ -21,7 +21,9 @@
 @property (nonatomic, assign) CGSize itemSize;
 
 /**
- The spacing between two cell items. 
+ The spacing between two cell items.
+ Since only one section is supported, itemSpacing means the distance between any
+ other two cells.
  */
 @property (nonatomic, assign) CGFloat itemSpacing;
 
@@ -29,7 +31,7 @@
  The infinite collection view's data source proxy. This is needed to add a layer 
  of indirection for the collection view's data source. Because of this layer of 
  indirection, the infinite collection view's actual data source will not be aware 
- of any inner implementation details of infinite scolling. 
+ of any inner implementation details of infinite scolling.
  */
 @property (nonatomic, strong, readonly) JWInfiniteCollectionViewDataSourceProxy *dataSourceProxy;
 
@@ -54,7 +56,8 @@
 @property (nonatomic, assign, readonly) CGFloat maxScrollableContentOffsetX;
 
 /**
- The horizontal span of all original item cells, including spacing. 
+ The horizontal span of all original item cells, including spacing between them.
  */
 @property (nonatomic, assign, readonly) CGFloat itemSpan;
+
 @end

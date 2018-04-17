@@ -36,9 +36,7 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
-    JWInfiniteCollectionViewFlowLayout *layout =
-    (JWInfiniteCollectionViewFlowLayout *)self.collectionViewLayout;
+    JWInfiniteCollectionViewFlowLayout *layout = (JWInfiniteCollectionViewFlowLayout *)self.collectionViewLayout;
     CGPoint currentOffset = self.contentOffset;
     if (self.contentOffset.x < layout.minScrollableContentOffsetX) {
         self.contentOffset = (CGPoint){layout.itemSpan + layout.itemSpacing + currentOffset.x,

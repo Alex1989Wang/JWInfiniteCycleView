@@ -26,6 +26,7 @@
 		C29B056D20678F970015F325 /* JWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C29B056C20678F970015F325 /* JWCollectionViewCell.m */; };
 		C2D25A9D20678D6E002D987F /* JWMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D25A9B20678D6E002D987F /* JWMainTableViewController.m */; };
 		C2D25A9E20678D6E002D987F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D25A9C20678D6E002D987F /* Main.storyboard */; };
+		EE3B537520863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3B537420863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = JWInfiniteCollectionView;
+		};
+		EE3B537720863124007E7684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = JWInfiniteCollectionView_Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,6 +81,9 @@
 		EC43CA6D932502897D5A0573 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWInfiniteCollectionView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWInfiniteCollectionView_Tests/Pods-JWInfiniteCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE1754008074B3314E7B9A34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EE3B2B7EE6A72041D8AF93FF /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWInfiniteCollectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWInfiniteCollectionView_Example/Pods-JWInfiniteCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3B537220863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWInfiniteCollectionView_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3B537420863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWInfiniteCollectionView_ExampleUITests.m; sourceTree = "<group>"; };
+		EE3B537620863124007E7684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +109,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE3B536F20863124007E7684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,6 +125,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for JWInfiniteCollectionView */,
 				6003F5B5195388D20070C39A /* Tests */,
+				EE3B537320863124007E7684 /* JWInfiniteCollectionView_ExampleUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				A43A179304790E22D8DC1A47 /* Pods */,
@@ -118,6 +137,7 @@
 			children = (
 				6003F58A195388D20070C39A /* JWInfiniteCollectionView_Example.app */,
 				6003F5AE195388D20070C39A /* JWInfiniteCollectionView_Tests.xctest */,
+				EE3B537220863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,6 +242,15 @@
 			path = RandomDataSet;
 			sourceTree = "<group>";
 		};
+		EE3B537320863124007E7684 /* JWInfiniteCollectionView_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3B537420863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.m */,
+				EE3B537620863124007E7684 /* Info.plist */,
+			);
+			path = JWInfiniteCollectionView_ExampleUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -266,6 +295,24 @@
 			productReference = 6003F5AE195388D20070C39A /* JWInfiniteCollectionView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EE3B537120863124007E7684 /* JWInfiniteCollectionView_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3B537B20863124007E7684 /* Build configuration list for PBXNativeTarget "JWInfiniteCollectionView_ExampleUITests" */;
+			buildPhases = (
+				EE3B536E20863124007E7684 /* Sources */,
+				EE3B536F20863124007E7684 /* Frameworks */,
+				EE3B537020863124007E7684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3B537820863124007E7684 /* PBXTargetDependency */,
+			);
+			name = JWInfiniteCollectionView_ExampleUITests;
+			productName = JWInfiniteCollectionView_ExampleUITests;
+			productReference = EE3B537220863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -280,6 +327,11 @@
 						DevelopmentTeam = Y39R442P5T;
 					};
 					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+					EE3B537120863124007E7684 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -299,6 +351,7 @@
 			targets = (
 				6003F589195388D20070C39A /* JWInfiniteCollectionView_Example */,
 				6003F5AD195388D20070C39A /* JWInfiniteCollectionView_Tests */,
+				EE3B537120863124007E7684 /* JWInfiniteCollectionView_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,6 +373,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3B537020863124007E7684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +508,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE3B536E20863124007E7684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3B537520863124007E7684 /* JWInfiniteCollectionView_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -455,6 +523,11 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* JWInfiniteCollectionView_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		EE3B537820863124007E7684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* JWInfiniteCollectionView_Example */;
+			targetProxy = EE3B537720863124007E7684 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -639,6 +712,75 @@
 			};
 			name = Release;
 		};
+		EE3B537920863124007E7684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = JWInfiniteCollectionView_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangwang.JWInfiniteCollectionView-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JWInfiniteCollectionView_Example;
+			};
+			name = Debug;
+		};
+		EE3B537A20863124007E7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = JWInfiniteCollectionView_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangwang.JWInfiniteCollectionView-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JWInfiniteCollectionView_Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -665,6 +807,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3B537B20863124007E7684 /* Build configuration list for PBXNativeTarget "JWInfiniteCollectionView_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3B537920863124007E7684 /* Debug */,
+				EE3B537A20863124007E7684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
