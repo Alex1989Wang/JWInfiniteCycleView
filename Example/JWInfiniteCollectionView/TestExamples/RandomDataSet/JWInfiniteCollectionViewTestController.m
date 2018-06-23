@@ -34,6 +34,19 @@ UICollectionViewDelegate>
         (selfViewSize.height - 40) * 0.5, 200, 40};
     self.infiniteCollection.frame = collectionRect;
     [self.view addSubview:self.infiniteCollection];
+    
+    UISwitch *infiniteSwitch = [[UISwitch alloc] init];
+    [infiniteSwitch sizeToFit];
+    CGFloat switchWidth = infiniteSwitch.bounds.size.width;
+    CGRect switchRect = infiniteSwitch.frame;
+    switchRect.origin = (CGPoint){(selfViewSize.width - switchWidth) * 0.5,
+        CGRectGetMaxY(collectionRect) + 20};
+    infiniteSwitch.frame = switchRect;
+    [self.view addSubview:infiniteSwitch];
+    infiniteSwitch.on = YES;
+    [infiniteSwitch addTarget:self
+                       action:@selector(didSwitchInfinite:)
+             forControlEvents:UIControlEventValueChanged];
 }
 
 #pragma mark - <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -53,6 +66,13 @@ UICollectionViewDelegate>
                                               forIndexPath:indexPath];
     cell.imageView.image = self.images[indexPath.row];
     return cell;
+}
+
+#pragma mark - Actions
+- (void)didSwitchInfinite:(UISwitch *)infiniteSwitch {
+    JWInfiniteCollectionViewFlowLayout *flowLayout = (JWInfiniteCollectionViewFlowLayout *)self.infiniteCollection.collectionViewLayout;
+    flowLayout.infinite = infiniteSwitch.isOn;
+    [self.infiniteCollection reloadData];
 }
 
 #pragma mark - Lazy Loading 

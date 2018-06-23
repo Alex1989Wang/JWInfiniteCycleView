@@ -64,5 +64,10 @@ typedef struct JWInfiniteCollectionItemsSpan JWInfiniteCollectionItemsSpan;
  */
 @property (nonatomic, assign) CGFloat minimumInteritemSpacing;
 
+/**
+ The infinite switch flag to use.
+ */
+@property (nonatomic, assign, getter=isInfinite) BOOL infinite;
+
 @end
 

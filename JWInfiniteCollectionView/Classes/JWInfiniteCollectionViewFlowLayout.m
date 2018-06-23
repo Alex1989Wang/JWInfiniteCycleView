@@ -36,6 +36,7 @@
         actualItemsSpan.minContentOffset = 0.f;
         actualItemsSpan.maxContentOffset = 0.f;
         _actualItemsSpan = actualItemsSpan;
+        _infinite = YES;
     }
     return self;
 }
@@ -134,6 +135,7 @@
     
     _actualItemSpacing = actualItemSpacing;
     CGFloat itemSpan = originalCount * (actualItemSpacing + itemWidth) - actualItemSpacing;
+    
     /*
      The goal here is try to have at leat THREE pages of items (WITH a few duplicates).
      - If the itemSpan is bigger than collectionWidth, theoretically, only one page of duplicate
@@ -141,21 +143,27 @@
      - If the itemSpan is less than collectionWidth, we will have a bit more than
      three pages of items;
      */
-    if (itemSpan > collectionWidth) {
-        NSInteger onePageCount = ceil((collectionWidth + itemWidth) / (actualItemSpacing + itemWidth));
-        _leftPaddedCount = onePageCount;
-        _rightPaddedCount = _leftPaddedCount;
-        _actualItemsSpan.minContentOffset = _leftPaddedCount * (itemWidth + actualItemSpacing);
-        _actualItemsSpan.maxContentOffset = (_leftPaddedCount + originalCount) * (itemWidth + actualItemSpacing) - actualItemSpacing;
+    if (self.isInfinite) {
+        if (itemSpan > collectionWidth) {
+            NSInteger onePageCount = ceil((collectionWidth + itemWidth) / (actualItemSpacing + itemWidth));
+            _leftPaddedCount = onePageCount;
+            _rightPaddedCount = _leftPaddedCount;
+        }
+        else {
+            NSInteger itemsTotal = ceil((3 * collectionWidth + itemWidth)/(actualItemSpacing + itemWidth));
+            NSInteger itemsPadded = itemsTotal - originalCount;
+            _leftPaddedCount = ceil((1 * collectionWidth + itemWidth)/(actualItemSpacing + itemWidth));
+            _rightPaddedCount = itemsPadded - _leftPaddedCount;
+        }
     }
     else {
-        NSInteger itemsTotal = ceil((3 * collectionWidth + itemWidth)/(actualItemSpacing + itemWidth));
-        NSInteger itemsPadded = itemsTotal - originalCount;
-        _leftPaddedCount = ceil((1 * collectionWidth + itemWidth)/(actualItemSpacing + itemWidth));
-        _rightPaddedCount = itemsPadded - _leftPaddedCount;
-        _actualItemsSpan.minContentOffset = _leftPaddedCount * (itemWidth + actualItemSpacing);
-        _actualItemsSpan.maxContentOffset = (_leftPaddedCount + originalCount) * (itemWidth + actualItemSpacing) - actualItemSpacing;
+        _leftPaddedCount = 0;
+        _rightPaddedCount = 0;
     }
+
+    //actual items span
+    _actualItemsSpan.minContentOffset = _leftPaddedCount * (itemWidth + actualItemSpacing);
+    _actualItemsSpan.maxContentOffset = (_leftPaddedCount + originalCount) * (itemWidth + actualItemSpacing) - actualItemSpacing;
 }
 
 #pragma mark - Lazy Loading
@@ -171,6 +179,13 @@
 
 @implementation JWInfiniteCollectionViewFlowLayout (JWPrivate)
 - (void)resetContentOffsetIfNeededForCollectionView:(UICollectionView *)collectionView {
+    
+    //return if infinite scrolling is now wanted.
+    if (!self.isInfinite) {
+        return;
+    }
+    
+    //reset the content offset
     CGFloat collectionWidth = collectionView.bounds.size.width;
     CGPoint currentOffset = collectionView.contentOffset;
     CGFloat spanWidth = self.actualItemsSpan.maxContentOffset - self.actualItemsSpan.minContentOffset;
