@@ -8,7 +8,6 @@
 
 #import "JWInfiniteCollectionView.h"
 #import "JWInfiniteCollectionViewFlowLayout.h"
-#import "JWInfiniteCollectionViewFlowLayout+JWPrivate.h"
 #import "JWInfiniteCollectionViewDataSourceProxy.h"
 
 @interface JWInfiniteCollectionView ()

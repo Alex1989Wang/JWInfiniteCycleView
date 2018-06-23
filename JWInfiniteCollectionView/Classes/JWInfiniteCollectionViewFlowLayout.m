@@ -7,7 +7,6 @@
 //
 
 #import "JWInfiniteCollectionViewFlowLayout.h"
-#import "JWInfiniteCollectionViewFlowLayout+JWPrivate.h"
 #import "JWInfiniteCollectionView.h"
 #import <objc/runtime.h>
 

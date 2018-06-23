@@ -12,7 +12,6 @@
 
 #import "JWInfiniteCollectionView.h"
 #import "JWInfiniteCollectionViewDataSourceProxy.h"
-#import "JWInfiniteCollectionViewFlowLayout+JWPrivate.h"
 #import "JWInfiniteCollectionViewFlowLayout.h"
 
 FOUNDATION_EXPORT double JWInfiniteCollectionViewVersionNumber;
