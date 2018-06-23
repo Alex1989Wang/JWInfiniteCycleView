@@ -56,11 +56,11 @@ align = center
 
 - [x] horizontal infinite scrolling 
 - [x] simple custom flow layout 
+- [x] add a infinite switch flag so that switch between normal collection view and infinitely-scrolling collection view is possible 
 
 ### To do 
 
 - [ ] custom flow layout subclass to customize collection view cell layout attributes
-- [ ] add a infinite switch flag so that switch between normal collection view and infinitely-scrolling collection view is possible 
 - [ ] add more possible tests
 
 ## Installation with CocoaPods
