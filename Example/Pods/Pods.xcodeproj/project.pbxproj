@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ED67CEC20AC74BFE5BE8E2E7C6AE4E8 /* JWInfiniteCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7380C165C127B57651E3934B14D6A80A /* JWInfiniteCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40269172D82C72833284E5CCCF560198 /* JWInfiniteCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D3592121F367361678B3A7ED57401F /* JWInfiniteCollectionView.m */; };
-		5064D1403B1093C452A4BDADA74A4C7F /* JWInfiniteCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 925EC6FEF32AE6E8816581250536BFB0 /* JWInfiniteCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6315172271D234FDC9BC3D800D09143C /* Pods-JWInfiniteCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 277E38648649CD0B3F8DACE751DB45D6 /* Pods-JWInfiniteCollectionView_Tests-dummy.m */; };
-		6A4205E7E223C78C02EFDD3C24E19DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		23B68809441419E04EBE9B8A6C698085 /* JWInfiniteCollectionViewDataSourceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE4BB3C6DB4CEDC35D5FD8E5BF56C34 /* JWInfiniteCollectionViewDataSourceProxy.m */; };
+		298BFE387AB52B2E07E04AC2EA06DEBE /* JWInfiniteCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 530A28925F6E06FD02BEFC9E0B250753 /* JWInfiniteCollectionView.m */; };
+		36B7F3B7A36183591454234FFF9FE1E1 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E849A1AE2147B420C64B3B86DD003932 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41711F88BBF9279264AD59BC01579EFE /* JWInfiniteCollectionViewDataSourceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCC7D804323D302DF91869A9BDAEDE2 /* JWInfiniteCollectionViewDataSourceProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE997FA2508BF9992781169A8C4CCE3 /* JWInfiniteCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF9ED3AB242C8CC0476877FE45163CA /* JWInfiniteCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524FF9212BA46446132E6AEF12255162 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF21E7704838B4E04628884404F826 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68384F1F49850FC9E031F7959B5F559A /* Pods-JWInfiniteCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E996D17DE4AF878DBAC3AD17E552ECB8 /* Pods-JWInfiniteCollectionView_Tests-dummy.m */; };
 		6DF3910E71AFE641ECB03B3B1C49B040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7912C8D639517F749D967903916A05A7 /* Pods-JWInfiniteCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2775A68DF06BA93DA8B6292C2D6B0E8F /* Pods-JWInfiniteCollectionView_Example-dummy.m */; };
-		909356FFB9236E77F9F6F9F9B867E455 /* Pods-JWInfiniteCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 009DBA25BE4D80DD7E5A811A6F0010D8 /* Pods-JWInfiniteCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95D6A71DF097DE965D3FED7656414B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ABFDA5AA680F09CA06CE155B1E2EEC00 /* JWInfiniteCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863C414428EAECD6D45A3BF421E0EA6 /* JWInfiniteCollectionViewFlowLayout.m */; };
-		ACA68609DC1714BD85DC1D8764BBB688 /* JWInfiniteCollectionViewDataSourceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F1E1C5AAB351FEFE01C165B7A96DD8 /* JWInfiniteCollectionViewDataSourceProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C0594071E62F21FEE6E3F8FF82BF40 /* JWInfiniteCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D9613127DCC2DA6B6A60532FB123BE /* JWInfiniteCollectionView-dummy.m */; };
-		C0CAB099328595C0FD51CC99A401E9CB /* JWInfiniteCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF019DE6F7648B95119C7BB96ABD2D5 /* JWInfiniteCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D05FE9042CED6D01E739ACC3972D8265 /* JWInfiniteCollectionViewDataSourceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC71BD1A11B52A7EAD922EE7613F7B39 /* JWInfiniteCollectionViewDataSourceProxy.m */; };
-		EA86AF1A70B4240B21BE45B47FAB91EB /* Pods-JWInfiniteCollectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B6D6FF60E076C3EC15CC9C4245EB97 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEBF407320DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBF407120DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7912C8D639517F749D967903916A05A7 /* Pods-JWInfiniteCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BD7480F9C548B2CFE87AF1D94810CB /* Pods-JWInfiniteCollectionView_Example-dummy.m */; };
+		7945F4105E2D0A53308E1775CA7A592D /* JWInfiniteCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08D498DD53D4F9C5615F1713A2ABE4 /* JWInfiniteCollectionView-dummy.m */; };
+		909356FFB9236E77F9F6F9F9B867E455 /* Pods-JWInfiniteCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E3D0DB206BAB6DB710EF7A3505A9BE /* Pods-JWInfiniteCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73C6BE1E59FB5190BCADFE95E3F0D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B4CB96819938F5939AB3F9B0CD50C217 /* JWInfiniteCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 381E54DF529CD5A78F493FD2B9791A57 /* JWInfiniteCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1FFDED75D6E17C3169A5B58F9EE5F1 /* JWInfiniteCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 906665A99BDB4198AA1690708AEEB79A /* JWInfiniteCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF10E0BE26B0FC13236D84A64591EEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E874CC226E8918203DC0735C9632E734 /* JWInfiniteCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6FEFEADAEEC692C347375468AF3FEA /* JWInfiniteCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,53 +30,71 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4614BB6EC4694B1793D1C2775AF958E1;
+			remoteGlobalIDString = CA8EFA48D67CF395F491B5B2F192BD82;
 			remoteInfo = JWInfiniteCollectionView;
+		};
+		E6F47C1A22A4C4D4DE7DF8A4FE55BFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492156050F1C7D33EDF66ADBA9EB7C94;
+			remoteInfo = "Pods-JWInfiniteCollectionView_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009DBA25BE4D80DD7E5A811A6F0010D8 /* Pods-JWInfiniteCollectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWInfiniteCollectionView_Example-umbrella.h"; sourceTree = "<group>"; };
-		02997E58C59FAFC86FDA0D807C700D27 /* Pods-JWInfiniteCollectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		09B6D6FF60E076C3EC15CC9C4245EB97 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWInfiniteCollectionView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		09CFFF57B9D19E4C267A01B7BE8BAFA3 /* Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0EB16463DD2DD3C91E1C90C9CB874730 /* Pods-JWInfiniteCollectionView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Tests-resources.sh"; sourceTree = "<group>"; };
-		1871DFA7F4E2A138658A8157FED80266 /* Pods_JWInfiniteCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWInfiniteCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2775A68DF06BA93DA8B6292C2D6B0E8F /* Pods-JWInfiniteCollectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWInfiniteCollectionView_Example-dummy.m"; sourceTree = "<group>"; };
-		277E38648649CD0B3F8DACE751DB45D6 /* Pods-JWInfiniteCollectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWInfiniteCollectionView_Tests-dummy.m"; sourceTree = "<group>"; };
-		2C7AA22D57E5407E0EACA92AF6009A3F /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2EA2964375448D119521EA5F97D597C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30B99B64C7581C0A0B86E2B9CD072096 /* Pods-JWInfiniteCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JWInfiniteCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
-		4863C414428EAECD6D45A3BF421E0EA6 /* JWInfiniteCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionViewFlowLayout.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		0B6EF0B52AA63753AC8937F99230DC23 /* Pods-JWInfiniteCollectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0FF9ED3AB242C8CC0476877FE45163CA /* JWInfiniteCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		110003476D830E128640A9D5982F5274 /* Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1871DFA7F4E2A138658A8157FED80266 /* Pods_JWInfiniteCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWInfiniteCollectionView_Tests.framework; path = "Pods-JWInfiniteCollectionView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1C60FED56A32C75325DD5FC0F2B76B /* Pods-JWInfiniteCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
+		27B4C7561D92A34B791FFA3C08C8D245 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE4BB3C6DB4CEDC35D5FD8E5BF56C34 /* JWInfiniteCollectionViewDataSourceProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionViewDataSourceProxy.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewDataSourceProxy.m; sourceTree = "<group>"; };
+		3261EF7C01A3031D41D29A90E850CED1 /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		381E54DF529CD5A78F493FD2B9791A57 /* JWInfiniteCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionView.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionView.h; sourceTree = "<group>"; };
+		43A48BB591B39FB2F86D476B606DEAD2 /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B08D498DD53D4F9C5615F1713A2ABE4 /* JWInfiniteCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWInfiniteCollectionView-dummy.m"; sourceTree = "<group>"; };
+		4F2420B2546BEEABE23E3F49F62F0578 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4FFF21E7704838B4E04628884404F826 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JWInfiniteCollectionViewFlowLayout+JWPrivate.h"; path = "JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewFlowLayout+JWPrivate.h"; sourceTree = "<group>"; };
+		530A28925F6E06FD02BEFC9E0B250753 /* JWInfiniteCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionView.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionView.m; sourceTree = "<group>"; };
+		5D6C96C424906DD944E389317CBA5524 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		626776CB078A536470A49FDF5072D402 /* JWInfiniteCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWInfiniteCollectionView.modulemap; sourceTree = "<group>"; };
+		65725EED76854D7E61A61920D6D5ABA6 /* Pods-JWInfiniteCollectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67B540E356B0172BE78CA289EB0AA3E8 /* Pods_JWInfiniteCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWInfiniteCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		689CB4E14AAD183776E474054D50E61B /* Pods-JWInfiniteCollectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWInfiniteCollectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6C3695D01C9A33557CC8F4A295BA504F /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7380C165C127B57651E3934B14D6A80A /* JWInfiniteCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionViewFlowLayout.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		86C91B4312946DC98F076C7FF4305A12 /* JWInfiniteCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWInfiniteCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		925EC6FEF32AE6E8816581250536BFB0 /* JWInfiniteCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionView.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionView.h; sourceTree = "<group>"; };
-		9359E5332B60FAC421BD75B3D8578A99 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98D3592121F367361678B3A7ED57401F /* JWInfiniteCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionView.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionView.m; sourceTree = "<group>"; };
-		A1F1E1C5AAB351FEFE01C165B7A96DD8 /* JWInfiniteCollectionViewDataSourceProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionViewDataSourceProxy.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewDataSourceProxy.h; sourceTree = "<group>"; };
-		A6522E48A0882E85AC6E2F23F1A3C348 /* Pods-JWInfiniteCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
-		A69562497BE7721E09ADEBAFF9F36AD8 /* JWInfiniteCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JWInfiniteCollectionView.modulemap; sourceTree = "<group>"; };
-		B121D0A5414B5292CFCDAEDE8ABA8905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C13F42FED13EB9DD4132DF2B836298D4 /* Pods-JWInfiniteCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JWInfiniteCollectionView_Example.modulemap"; sourceTree = "<group>"; };
-		C3D9613127DCC2DA6B6A60532FB123BE /* JWInfiniteCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWInfiniteCollectionView-dummy.m"; sourceTree = "<group>"; };
-		CBF019DE6F7648B95119C7BB96ABD2D5 /* JWInfiniteCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionView-umbrella.h"; sourceTree = "<group>"; };
-		D762A96FA017157593A997592BFE38BD /* JWInfiniteCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionView-prefix.pch"; sourceTree = "<group>"; };
-		E7DA2B55813389F706079286A2A6D1C8 /* Pods-JWInfiniteCollectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EA8C0DE5E4AD7F6D305D65CBD117495E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEBF407120DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionViewFlowLayout+JWPrivate.h"; sourceTree = "<group>"; };
-		EF5F19E70FE65E11641AFE3284F0FBC1 /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7D7FB1FEF0C5451A6B4C5AF3907661D /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F8675431D6957CC4C91F940DAEDF6557 /* JWInfiniteCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWInfiniteCollectionView.xcconfig; sourceTree = "<group>"; };
-		FB7D603F793F5F1E69BD5BA1D02422BE /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWInfiniteCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC71BD1A11B52A7EAD922EE7613F7B39 /* JWInfiniteCollectionViewDataSourceProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionViewDataSourceProxy.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewDataSourceProxy.m; sourceTree = "<group>"; };
+		667B536E512CE7DADE23E12F33A43B0E /* JWInfiniteCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWInfiniteCollectionView.xcconfig; sourceTree = "<group>"; };
+		67B540E356B0172BE78CA289EB0AA3E8 /* Pods_JWInfiniteCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWInfiniteCollectionView_Example.framework; path = "Pods-JWInfiniteCollectionView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68346B26B8FF8660C9E19288042015B5 /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		76ACCA1EE17FC0059630E441013BCF5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F0061A857199123E317425CB79961F /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		86C91B4312946DC98F076C7FF4305A12 /* JWInfiniteCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWInfiniteCollectionView.framework; path = JWInfiniteCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E3228E3DFAFDD745A25CA72A4D4670 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8FCC7D804323D302DF91869A9BDAEDE2 /* JWInfiniteCollectionViewDataSourceProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionViewDataSourceProxy.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewDataSourceProxy.h; sourceTree = "<group>"; };
+		906665A99BDB4198AA1690708AEEB79A /* JWInfiniteCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionViewFlowLayout.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AF04EA4E129F0D75F7FC8EF641FD766 /* JWInfiniteCollectionView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JWInfiniteCollectionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BF824B61CB8E998A517DC706AF5FCB6 /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWInfiniteCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4DD4F4427AB5A715BE267348D0286C3 /* Pods-JWInfiniteCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWInfiniteCollectionView_Example.modulemap"; sourceTree = "<group>"; };
+		C0F8F8CD00EE1F126AB7C453E87B8C3E /* JWInfiniteCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		CD86E0D01BE956FEA0BC9E3EE61E7792 /* Pods-JWInfiniteCollectionView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Tests-resources.sh"; sourceTree = "<group>"; };
+		D7BD7480F9C548B2CFE87AF1D94810CB /* Pods-JWInfiniteCollectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWInfiniteCollectionView_Example-dummy.m"; sourceTree = "<group>"; };
+		DCCC8808D91609E03940144725EDCDC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D0CD0A6A755C231197A95EF66AE098 /* Pods-JWInfiniteCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWInfiniteCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
+		E849A1AE2147B420C64B3B86DD003932 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWInfiniteCollectionView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E996D17DE4AF878DBAC3AD17E552ECB8 /* Pods-JWInfiniteCollectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWInfiniteCollectionView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F33D62CAF7F3CACD6075717230C92341 /* Pods-JWInfiniteCollectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWInfiniteCollectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9E3D0DB206BAB6DB710EF7A3505A9BE /* Pods-JWInfiniteCollectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWInfiniteCollectionView_Example-umbrella.h"; sourceTree = "<group>"; };
+		FE6FEFEADAEEC692C347375468AF3FEA /* JWInfiniteCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionViewFlowLayout.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0BF031D5233DDCD3B970435C1ACFFF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10E0BE26B0FC13236D84A64591EEDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2359EA90F4965E292BB648B326ED3616 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,117 +103,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8FA13DE40865169B2486A3F0A537E75 /* Frameworks */ = {
+		3F3E6F39B71AB002166757134455FB75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95D6A71DF097DE965D3FED7656414B55 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3ABE26ECF6BF4663C47C8A39F08BA40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A4205E7E223C78C02EFDD3C24E19DDA /* Foundation.framework in Frameworks */,
+				A73C6BE1E59FB5190BCADFE95E3F0D9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1901CB9716052D9BA6E88846EEE69A18 /* Development Pods */ = {
+		0413BFBECEA8EF5BEEA47B7F2D1101AE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F2598BAD388A0AD77DBD98E60AC291D /* JWInfiniteCollectionView */,
+				76ACCA1EE17FC0059630E441013BCF5C /* Info.plist */,
+				626776CB078A536470A49FDF5072D402 /* JWInfiniteCollectionView.modulemap */,
+				667B536E512CE7DADE23E12F33A43B0E /* JWInfiniteCollectionView.xcconfig */,
+				4B08D498DD53D4F9C5615F1713A2ABE4 /* JWInfiniteCollectionView-dummy.m */,
+				C0F8F8CD00EE1F126AB7C453E87B8C3E /* JWInfiniteCollectionView-prefix.pch */,
+				0FF9ED3AB242C8CC0476877FE45163CA /* JWInfiniteCollectionView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JWInfiniteCollectionView";
 			sourceTree = "<group>";
 		};
-		2F2598BAD388A0AD77DBD98E60AC291D /* JWInfiniteCollectionView */ = {
+		07084178897D221CAB9CBA9615868ACA /* Pods-JWInfiniteCollectionView_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				925EC6FEF32AE6E8816581250536BFB0 /* JWInfiniteCollectionView.h */,
-				98D3592121F367361678B3A7ED57401F /* JWInfiniteCollectionView.m */,
-				A1F1E1C5AAB351FEFE01C165B7A96DD8 /* JWInfiniteCollectionViewDataSourceProxy.h */,
-				FC71BD1A11B52A7EAD922EE7613F7B39 /* JWInfiniteCollectionViewDataSourceProxy.m */,
-				EEBF407120DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */,
-				7380C165C127B57651E3934B14D6A80A /* JWInfiniteCollectionViewFlowLayout.h */,
-				4863C414428EAECD6D45A3BF421E0EA6 /* JWInfiniteCollectionViewFlowLayout.m */,
-				9327A10D650AEC383637EA3D82BCB6F9 /* Support Files */,
+				DCCC8808D91609E03940144725EDCDC8 /* Info.plist */,
+				E1D0CD0A6A755C231197A95EF66AE098 /* Pods-JWInfiniteCollectionView_Tests.modulemap */,
+				43A48BB591B39FB2F86D476B606DEAD2 /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown */,
+				9BF824B61CB8E998A517DC706AF5FCB6 /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.plist */,
+				E996D17DE4AF878DBAC3AD17E552ECB8 /* Pods-JWInfiniteCollectionView_Tests-dummy.m */,
+				0B6EF0B52AA63753AC8937F99230DC23 /* Pods-JWInfiniteCollectionView_Tests-frameworks.sh */,
+				CD86E0D01BE956FEA0BC9E3EE61E7792 /* Pods-JWInfiniteCollectionView_Tests-resources.sh */,
+				E849A1AE2147B420C64B3B86DD003932 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */,
+				5D6C96C424906DD944E389317CBA5524 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */,
+				3261EF7C01A3031D41D29A90E850CED1 /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */,
 			);
-			name = JWInfiniteCollectionView;
-			path = ../..;
+			name = "Pods-JWInfiniteCollectionView_Tests";
+			path = "Target Support Files/Pods-JWInfiniteCollectionView_Tests";
 			sourceTree = "<group>";
 		};
 		64E98052FAB21C27DA107CE270D32BBB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B108D65FB18CDBDBD6CCCBF00E5DA965 /* Pods-JWInfiniteCollectionView_Example */,
-				6B696FF6C08BF5A29CB65F6C890DCA6E /* Pods-JWInfiniteCollectionView_Tests */,
+				74EE0D9685067F2C35D61D25351118EE /* Pods-JWInfiniteCollectionView_Example */,
+				07084178897D221CAB9CBA9615868ACA /* Pods-JWInfiniteCollectionView_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6B696FF6C08BF5A29CB65F6C890DCA6E /* Pods-JWInfiniteCollectionView_Tests */ = {
+		74EE0D9685067F2C35D61D25351118EE /* Pods-JWInfiniteCollectionView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B121D0A5414B5292CFCDAEDE8ABA8905 /* Info.plist */,
-				30B99B64C7581C0A0B86E2B9CD072096 /* Pods-JWInfiniteCollectionView_Tests.modulemap */,
-				EF5F19E70FE65E11641AFE3284F0FBC1 /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown */,
-				FB7D603F793F5F1E69BD5BA1D02422BE /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.plist */,
-				277E38648649CD0B3F8DACE751DB45D6 /* Pods-JWInfiniteCollectionView_Tests-dummy.m */,
-				E7DA2B55813389F706079286A2A6D1C8 /* Pods-JWInfiniteCollectionView_Tests-frameworks.sh */,
-				0EB16463DD2DD3C91E1C90C9CB874730 /* Pods-JWInfiniteCollectionView_Tests-resources.sh */,
-				09B6D6FF60E076C3EC15CC9C4245EB97 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */,
-				9359E5332B60FAC421BD75B3D8578A99 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */,
-				2C7AA22D57E5407E0EACA92AF6009A3F /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */,
+				27B4C7561D92A34B791FFA3C08C8D245 /* Info.plist */,
+				A4DD4F4427AB5A715BE267348D0286C3 /* Pods-JWInfiniteCollectionView_Example.modulemap */,
+				110003476D830E128640A9D5982F5274 /* Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown */,
+				F33D62CAF7F3CACD6075717230C92341 /* Pods-JWInfiniteCollectionView_Example-acknowledgements.plist */,
+				D7BD7480F9C548B2CFE87AF1D94810CB /* Pods-JWInfiniteCollectionView_Example-dummy.m */,
+				65725EED76854D7E61A61920D6D5ABA6 /* Pods-JWInfiniteCollectionView_Example-frameworks.sh */,
+				1A1C60FED56A32C75325DD5FC0F2B76B /* Pods-JWInfiniteCollectionView_Example-resources.sh */,
+				F9E3D0DB206BAB6DB710EF7A3505A9BE /* Pods-JWInfiniteCollectionView_Example-umbrella.h */,
+				82F0061A857199123E317425CB79961F /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */,
+				68346B26B8FF8660C9E19288042015B5 /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */,
 			);
-			name = "Pods-JWInfiniteCollectionView_Tests";
-			path = "Target Support Files/Pods-JWInfiniteCollectionView_Tests";
+			name = "Pods-JWInfiniteCollectionView_Example";
+			path = "Target Support Files/Pods-JWInfiniteCollectionView_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1901CB9716052D9BA6E88846EEE69A18 /* Development Pods */,
+				F36203EB7F1BEA124BC35F3D9C7CF6FD /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D9E61045964AD38D489D8CECE6D22CF1 /* Products */,
 				64E98052FAB21C27DA107CE270D32BBB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9327A10D650AEC383637EA3D82BCB6F9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2EA2964375448D119521EA5F97D597C0 /* Info.plist */,
-				A69562497BE7721E09ADEBAFF9F36AD8 /* JWInfiniteCollectionView.modulemap */,
-				F8675431D6957CC4C91F940DAEDF6557 /* JWInfiniteCollectionView.xcconfig */,
-				C3D9613127DCC2DA6B6A60532FB123BE /* JWInfiniteCollectionView-dummy.m */,
-				D762A96FA017157593A997592BFE38BD /* JWInfiniteCollectionView-prefix.pch */,
-				CBF019DE6F7648B95119C7BB96ABD2D5 /* JWInfiniteCollectionView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JWInfiniteCollectionView";
-			sourceTree = "<group>";
-		};
-		B108D65FB18CDBDBD6CCCBF00E5DA965 /* Pods-JWInfiniteCollectionView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				EA8C0DE5E4AD7F6D305D65CBD117495E /* Info.plist */,
-				C13F42FED13EB9DD4132DF2B836298D4 /* Pods-JWInfiniteCollectionView_Example.modulemap */,
-				09CFFF57B9D19E4C267A01B7BE8BAFA3 /* Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown */,
-				689CB4E14AAD183776E474054D50E61B /* Pods-JWInfiniteCollectionView_Example-acknowledgements.plist */,
-				2775A68DF06BA93DA8B6292C2D6B0E8F /* Pods-JWInfiniteCollectionView_Example-dummy.m */,
-				02997E58C59FAFC86FDA0D807C700D27 /* Pods-JWInfiniteCollectionView_Example-frameworks.sh */,
-				A6522E48A0882E85AC6E2F23F1A3C348 /* Pods-JWInfiniteCollectionView_Example-resources.sh */,
-				009DBA25BE4D80DD7E5A811A6F0010D8 /* Pods-JWInfiniteCollectionView_Example-umbrella.h */,
-				6C3695D01C9A33557CC8F4A295BA504F /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */,
-				F7D7FB1FEF0C5451A6B4C5AF3907661D /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */,
-			);
-			name = "Pods-JWInfiniteCollectionView_Example";
-			path = "Target Support Files/Pods-JWInfiniteCollectionView_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -224,14 +210,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DB81049156DEF0FD62A3AA279D5A1BCE /* JWInfiniteCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				381E54DF529CD5A78F493FD2B9791A57 /* JWInfiniteCollectionView.h */,
+				530A28925F6E06FD02BEFC9E0B250753 /* JWInfiniteCollectionView.m */,
+				8FCC7D804323D302DF91869A9BDAEDE2 /* JWInfiniteCollectionViewDataSourceProxy.h */,
+				2FE4BB3C6DB4CEDC35D5FD8E5BF56C34 /* JWInfiniteCollectionViewDataSourceProxy.m */,
+				906665A99BDB4198AA1690708AEEB79A /* JWInfiniteCollectionViewFlowLayout.h */,
+				FE6FEFEADAEEC692C347375468AF3FEA /* JWInfiniteCollectionViewFlowLayout.m */,
+				4FFF21E7704838B4E04628884404F826 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */,
+				E982A109EC1A3EBDA02C11A5FB806160 /* Pod */,
+				0413BFBECEA8EF5BEEA47B7F2D1101AE /* Support Files */,
+			);
+			name = JWInfiniteCollectionView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E982A109EC1A3EBDA02C11A5FB806160 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9AF04EA4E129F0D75F7FC8EF641FD766 /* JWInfiniteCollectionView.podspec */,
+				87E3228E3DFAFDD745A25CA72A4D4670 /* LICENSE */,
+				4F2420B2546BEEABE23E3F49F62F0578 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F36203EB7F1BEA124BC35F3D9C7CF6FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB81049156DEF0FD62A3AA279D5A1BCE /* JWInfiniteCollectionView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		296F58A8B583B7AA324B11A375DE655E /* Headers */ = {
+		0F1400C386ED8546A25219BCC6C83645 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA86AF1A70B4240B21BE45B47FAB91EB /* Pods-JWInfiniteCollectionView_Tests-umbrella.h in Headers */,
+				4CE997FA2508BF9992781169A8C4CCE3 /* JWInfiniteCollectionView-umbrella.h in Headers */,
+				B4CB96819938F5939AB3F9B0CD50C217 /* JWInfiniteCollectionView.h in Headers */,
+				41711F88BBF9279264AD59BC01579EFE /* JWInfiniteCollectionViewDataSourceProxy.h in Headers */,
+				524FF9212BA46446132E6AEF12255162 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h in Headers */,
+				CB1FFDED75D6E17C3169A5B58F9EE5F1 /* JWInfiniteCollectionViewFlowLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,38 +268,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2A140E1FFF5CED22B69B7DCAD81F539 /* Headers */ = {
+		D5C3D29364FBB59B468BB6240D1DB732 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CAB099328595C0FD51CC99A401E9CB /* JWInfiniteCollectionView-umbrella.h in Headers */,
-				EEBF407320DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h in Headers */,
-				5064D1403B1093C452A4BDADA74A4C7F /* JWInfiniteCollectionView.h in Headers */,
-				ACA68609DC1714BD85DC1D8764BBB688 /* JWInfiniteCollectionViewDataSourceProxy.h in Headers */,
-				3ED67CEC20AC74BFE5BE8E2E7C6AE4E8 /* JWInfiniteCollectionViewFlowLayout.h in Headers */,
+				36B7F3B7A36183591454234FFF9FE1E1 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4614BB6EC4694B1793D1C2775AF958E1 /* JWInfiniteCollectionView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 234E8E56CA3DD72768B2E397CCF7CBDC /* Build configuration list for PBXNativeTarget "JWInfiniteCollectionView" */;
-			buildPhases = (
-				724AD04DB6D9703A4C5B5FFB0AFB2DA4 /* Sources */,
-				A8FA13DE40865169B2486A3F0A537E75 /* Frameworks */,
-				F2A140E1FFF5CED22B69B7DCAD81F539 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JWInfiniteCollectionView;
-			productName = JWInfiniteCollectionView;
-			productReference = 86C91B4312946DC98F076C7FF4305A12 /* JWInfiniteCollectionView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		492156050F1C7D33EDF66ADBA9EB7C94 /* Pods-JWInfiniteCollectionView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37D5159D47238DD496123216E1405C09 /* Build configuration list for PBXNativeTarget "Pods-JWInfiniteCollectionView_Example" */;
@@ -293,21 +297,39 @@
 			productReference = 67B540E356B0172BE78CA289EB0AA3E8 /* Pods_JWInfiniteCollectionView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E659D62FF6191597FFA66E04434BB43C /* Pods-JWInfiniteCollectionView_Tests */ = {
+		A83BC61193603DA0B0FDE1257466B06F /* Pods-JWInfiniteCollectionView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED8E8737C12B980D5093B3445ABFE0CD /* Build configuration list for PBXNativeTarget "Pods-JWInfiniteCollectionView_Tests" */;
+			buildConfigurationList = D8F0B8663A2B89F674C466B1F98E018C /* Build configuration list for PBXNativeTarget "Pods-JWInfiniteCollectionView_Tests" */;
 			buildPhases = (
-				D676F829EF137E4D5587C564A8AFDA50 /* Sources */,
-				C3ABE26ECF6BF4663C47C8A39F08BA40 /* Frameworks */,
-				296F58A8B583B7AA324B11A375DE655E /* Headers */,
+				6A8A98211AACBE944F6E867CF94C9F19 /* Sources */,
+				3F3E6F39B71AB002166757134455FB75 /* Frameworks */,
+				D5C3D29364FBB59B468BB6240D1DB732 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44BC4B757404057A63101446798B2068 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWInfiniteCollectionView_Tests";
+			productName = "Pods-JWInfiniteCollectionView_Tests";
+			productReference = 1871DFA7F4E2A138658A8157FED80266 /* Pods_JWInfiniteCollectionView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA8EFA48D67CF395F491B5B2F192BD82 /* JWInfiniteCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D630C6912B9D7A65F6DA359923B8334 /* Build configuration list for PBXNativeTarget "JWInfiniteCollectionView" */;
+			buildPhases = (
+				B4658B0CEB0B11F3CB1BD2A202C3A290 /* Sources */,
+				0BF031D5233DDCD3B970435C1ACFFF80 /* Frameworks */,
+				0F1400C386ED8546A25219BCC6C83645 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-JWInfiniteCollectionView_Tests";
-			productName = "Pods-JWInfiniteCollectionView_Tests";
-			productReference = 1871DFA7F4E2A138658A8157FED80266 /* Pods_JWInfiniteCollectionView_Tests.framework */;
+			name = JWInfiniteCollectionView;
+			productName = JWInfiniteCollectionView;
+			productReference = 86C91B4312946DC98F076C7FF4305A12 /* JWInfiniteCollectionView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,8 +338,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -331,9 +353,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4614BB6EC4694B1793D1C2775AF958E1 /* JWInfiniteCollectionView */,
+				CA8EFA48D67CF395F491B5B2F192BD82 /* JWInfiniteCollectionView */,
 				492156050F1C7D33EDF66ADBA9EB7C94 /* Pods-JWInfiniteCollectionView_Example */,
-				E659D62FF6191597FFA66E04434BB43C /* Pods-JWInfiniteCollectionView_Tests */,
+				A83BC61193603DA0B0FDE1257466B06F /* Pods-JWInfiniteCollectionView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -347,227 +369,162 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		724AD04DB6D9703A4C5B5FFB0AFB2DA4 /* Sources */ = {
+		6A8A98211AACBE944F6E867CF94C9F19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C0594071E62F21FEE6E3F8FF82BF40 /* JWInfiniteCollectionView-dummy.m in Sources */,
-				40269172D82C72833284E5CCCF560198 /* JWInfiniteCollectionView.m in Sources */,
-				D05FE9042CED6D01E739ACC3972D8265 /* JWInfiniteCollectionViewDataSourceProxy.m in Sources */,
-				ABFDA5AA680F09CA06CE155B1E2EEC00 /* JWInfiniteCollectionViewFlowLayout.m in Sources */,
+				68384F1F49850FC9E031F7959B5F559A /* Pods-JWInfiniteCollectionView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D676F829EF137E4D5587C564A8AFDA50 /* Sources */ = {
+		B4658B0CEB0B11F3CB1BD2A202C3A290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6315172271D234FDC9BC3D800D09143C /* Pods-JWInfiniteCollectionView_Tests-dummy.m in Sources */,
+				7945F4105E2D0A53308E1775CA7A592D /* JWInfiniteCollectionView-dummy.m in Sources */,
+				298BFE387AB52B2E07E04AC2EA06DEBE /* JWInfiniteCollectionView.m in Sources */,
+				23B68809441419E04EBE9B8A6C698085 /* JWInfiniteCollectionViewDataSourceProxy.m in Sources */,
+				E874CC226E8918203DC0735C9632E734 /* JWInfiniteCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		44BC4B757404057A63101446798B2068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JWInfiniteCollectionView_Example";
+			target = 492156050F1C7D33EDF66ADBA9EB7C94 /* Pods-JWInfiniteCollectionView_Example */;
+			targetProxy = E6F47C1A22A4C4D4DE7DF8A4FE55BFAF /* PBXContainerItemProxy */;
+		};
 		9D7F4B7DF58350BFA49B3324FA81D4AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JWInfiniteCollectionView;
-			target = 4614BB6EC4694B1793D1C2775AF958E1 /* JWInfiniteCollectionView */;
+			target = CA8EFA48D67CF395F491B5B2F192BD82 /* JWInfiniteCollectionView */;
 			targetProxy = 1B51CAE4568AEBB744D6D4384632FBDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0266593D6A8A0542152DCC8F997ADC19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D7FB1FEF0C5451A6B4C5AF3907661D /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Example/Pods-JWInfiniteCollectionView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JWInfiniteCollectionView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		258F60B3436B7D5619C9D8D94F9CFF04 /* Debug */ = {
+		4B7D18F90A232930B12F7BB9913CE159 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8675431D6957CC4C91F940DAEDF6557 /* JWInfiniteCollectionView.xcconfig */;
+			baseConfigurationReference = 667B536E512CE7DADE23E12F33A43B0E /* JWInfiniteCollectionView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/JWInfiniteCollectionView/JWInfiniteCollectionView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JWInfiniteCollectionView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JWInfiniteCollectionView/JWInfiniteCollectionView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = JWInfiniteCollectionView;
 				PRODUCT_NAME = JWInfiniteCollectionView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		896E3C9D8569014506A72AD00FF6A8EF /* Debug */ = {
+		8EE451A27E4E7C4425DABEDDAC675605 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9359E5332B60FAC421BD75B3D8578A99 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5D6C96C424906DD944E389317CBA5524 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Tests/Pods-JWInfiniteCollectionView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JWInfiniteCollectionView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -576,103 +533,129 @@
 			};
 			name = Debug;
 		};
-		B2E76D5EF101E3CB1FD4FE9B2EB75493 /* Release */ = {
+		A3EABE04C4C4C6329B5F1D83DB97C976 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C7AA22D57E5407E0EACA92AF6009A3F /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */;
+			baseConfigurationReference = 68346B26B8FF8660C9E19288042015B5 /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Tests/Pods-JWInfiniteCollectionView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JWInfiniteCollectionView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B3C2E97EE6BCE16886CB263DB00A6FB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8675431D6957CC4C91F940DAEDF6557 /* JWInfiniteCollectionView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JWInfiniteCollectionView/JWInfiniteCollectionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JWInfiniteCollectionView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JWInfiniteCollectionView/JWInfiniteCollectionView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JWInfiniteCollectionView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FB66EC3121AF7213D3FF34D51EEBC800 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C3695D01C9A33557CC8F4A295BA504F /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Example/Pods-JWInfiniteCollectionView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JWInfiniteCollectionView_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC2D363A4F2C5984A24EFE4C8E987656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3261EF7C01A3031D41D29A90E850CED1 /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Tests/Pods-JWInfiniteCollectionView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD8997004848D442360579428BFCA6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667B536E512CE7DADE23E12F33A43B0E /* JWInfiniteCollectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWInfiniteCollectionView/JWInfiniteCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWInfiniteCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWInfiniteCollectionView/JWInfiniteCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = JWInfiniteCollectionView;
+				PRODUCT_NAME = JWInfiniteCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8B8191B84F041A08E280646A7766E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F0061A857199123E317425CB79961F /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWInfiniteCollectionView_Example/Pods-JWInfiniteCollectionView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -681,23 +664,72 @@
 			};
 			name = Debug;
 		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		234E8E56CA3DD72768B2E397CCF7CBDC /* Build configuration list for PBXNativeTarget "JWInfiniteCollectionView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				258F60B3436B7D5619C9D8D94F9CFF04 /* Debug */,
-				B3C2E97EE6BCE16886CB263DB00A6FB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
-				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -705,17 +737,26 @@
 		37D5159D47238DD496123216E1405C09 /* Build configuration list for PBXNativeTarget "Pods-JWInfiniteCollectionView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB66EC3121AF7213D3FF34D51EEBC800 /* Debug */,
-				0266593D6A8A0542152DCC8F997ADC19 /* Release */,
+				E8B8191B84F041A08E280646A7766E05 /* Debug */,
+				A3EABE04C4C4C6329B5F1D83DB97C976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED8E8737C12B980D5093B3445ABFE0CD /* Build configuration list for PBXNativeTarget "Pods-JWInfiniteCollectionView_Tests" */ = {
+		4D630C6912B9D7A65F6DA359923B8334 /* Build configuration list for PBXNativeTarget "JWInfiniteCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				896E3C9D8569014506A72AD00FF6A8EF /* Debug */,
-				B2E76D5EF101E3CB1FD4FE9B2EB75493 /* Release */,
+				BD8997004848D442360579428BFCA6EE /* Debug */,
+				4B7D18F90A232930B12F7BB9913CE159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F0B8663A2B89F674C466B1F98E018C /* Build configuration list for PBXNativeTarget "Pods-JWInfiniteCollectionView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE451A27E4E7C4425DABEDDAC675605 /* Debug */,
+				BC2D363A4F2C5984A24EFE4C8E987656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
