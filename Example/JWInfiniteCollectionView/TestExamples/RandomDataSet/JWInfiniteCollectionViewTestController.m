@@ -60,7 +60,7 @@ UICollectionViewDelegate>
     if (!_infiniteCollection) {
         JWInfiniteCollectionViewFlowLayout *flowLayout = [[JWInfiniteCollectionViewFlowLayout alloc] init];
         flowLayout.itemSize = kItemSize;
-        flowLayout.itemSpacing = 20.f;
+        flowLayout.minimumInteritemSpacing = 20.f;
         _infiniteCollection = [[JWInfiniteCollectionView alloc] initWithFrame:CGRectZero
                                                  collectionViewLayout:flowLayout];
         [_infiniteCollection registerClass:[JWCollectionViewCell class]
@@ -69,6 +69,8 @@ UICollectionViewDelegate>
         _infiniteCollection.dataSource = self;
         [_infiniteCollection setShowsHorizontalScrollIndicator:NO];
         _infiniteCollection.indicatorStyle = UIScrollViewIndicatorStyleWhite;
+        _infiniteCollection.alwaysBounceVertical = NO;
+        _infiniteCollection.bounces = NO;
 //        _infiniteCollection.pagingEnabled = YES;
     }
     return _infiniteCollection;

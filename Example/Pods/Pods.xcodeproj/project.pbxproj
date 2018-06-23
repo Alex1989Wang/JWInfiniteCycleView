@@ -22,6 +22,7 @@
 		C0CAB099328595C0FD51CC99A401E9CB /* JWInfiniteCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF019DE6F7648B95119C7BB96ABD2D5 /* JWInfiniteCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D05FE9042CED6D01E739ACC3972D8265 /* JWInfiniteCollectionViewDataSourceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC71BD1A11B52A7EAD922EE7613F7B39 /* JWInfiniteCollectionViewDataSourceProxy.m */; };
 		EA86AF1A70B4240B21BE45B47FAB91EB /* Pods-JWInfiniteCollectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B6D6FF60E076C3EC15CC9C4245EB97 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEBF407320DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBF407120DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,33 +41,34 @@
 		09B6D6FF60E076C3EC15CC9C4245EB97 /* Pods-JWInfiniteCollectionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWInfiniteCollectionView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		09CFFF57B9D19E4C267A01B7BE8BAFA3 /* Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWInfiniteCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EB16463DD2DD3C91E1C90C9CB874730 /* Pods-JWInfiniteCollectionView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Tests-resources.sh"; sourceTree = "<group>"; };
-		1871DFA7F4E2A138658A8157FED80266 /* Pods_JWInfiniteCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWInfiniteCollectionView_Tests.framework; path = "Pods-JWInfiniteCollectionView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1871DFA7F4E2A138658A8157FED80266 /* Pods_JWInfiniteCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWInfiniteCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2775A68DF06BA93DA8B6292C2D6B0E8F /* Pods-JWInfiniteCollectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWInfiniteCollectionView_Example-dummy.m"; sourceTree = "<group>"; };
 		277E38648649CD0B3F8DACE751DB45D6 /* Pods-JWInfiniteCollectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWInfiniteCollectionView_Tests-dummy.m"; sourceTree = "<group>"; };
 		2C7AA22D57E5407E0EACA92AF6009A3F /* Pods-JWInfiniteCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2EA2964375448D119521EA5F97D597C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30B99B64C7581C0A0B86E2B9CD072096 /* Pods-JWInfiniteCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JWInfiniteCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
+		30B99B64C7581C0A0B86E2B9CD072096 /* Pods-JWInfiniteCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JWInfiniteCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
 		4863C414428EAECD6D45A3BF421E0EA6 /* JWInfiniteCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionViewFlowLayout.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67B540E356B0172BE78CA289EB0AA3E8 /* Pods_JWInfiniteCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JWInfiniteCollectionView_Example.framework; path = "Pods-JWInfiniteCollectionView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B540E356B0172BE78CA289EB0AA3E8 /* Pods_JWInfiniteCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWInfiniteCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		689CB4E14AAD183776E474054D50E61B /* Pods-JWInfiniteCollectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWInfiniteCollectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6C3695D01C9A33557CC8F4A295BA504F /* Pods-JWInfiniteCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7380C165C127B57651E3934B14D6A80A /* JWInfiniteCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionViewFlowLayout.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		86C91B4312946DC98F076C7FF4305A12 /* JWInfiniteCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWInfiniteCollectionView.framework; path = JWInfiniteCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C91B4312946DC98F076C7FF4305A12 /* JWInfiniteCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWInfiniteCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		925EC6FEF32AE6E8816581250536BFB0 /* JWInfiniteCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionView.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionView.h; sourceTree = "<group>"; };
 		9359E5332B60FAC421BD75B3D8578A99 /* Pods-JWInfiniteCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98D3592121F367361678B3A7ED57401F /* JWInfiniteCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWInfiniteCollectionView.m; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionView.m; sourceTree = "<group>"; };
 		A1F1E1C5AAB351FEFE01C165B7A96DD8 /* JWInfiniteCollectionViewDataSourceProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWInfiniteCollectionViewDataSourceProxy.h; path = JWInfiniteCollectionView/Classes/JWInfiniteCollectionViewDataSourceProxy.h; sourceTree = "<group>"; };
 		A6522E48A0882E85AC6E2F23F1A3C348 /* Pods-JWInfiniteCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
-		A69562497BE7721E09ADEBAFF9F36AD8 /* JWInfiniteCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JWInfiniteCollectionView.modulemap; sourceTree = "<group>"; };
+		A69562497BE7721E09ADEBAFF9F36AD8 /* JWInfiniteCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JWInfiniteCollectionView.modulemap; sourceTree = "<group>"; };
 		B121D0A5414B5292CFCDAEDE8ABA8905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C13F42FED13EB9DD4132DF2B836298D4 /* Pods-JWInfiniteCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JWInfiniteCollectionView_Example.modulemap"; sourceTree = "<group>"; };
+		C13F42FED13EB9DD4132DF2B836298D4 /* Pods-JWInfiniteCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JWInfiniteCollectionView_Example.modulemap"; sourceTree = "<group>"; };
 		C3D9613127DCC2DA6B6A60532FB123BE /* JWInfiniteCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWInfiniteCollectionView-dummy.m"; sourceTree = "<group>"; };
 		CBF019DE6F7648B95119C7BB96ABD2D5 /* JWInfiniteCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionView-umbrella.h"; sourceTree = "<group>"; };
 		D762A96FA017157593A997592BFE38BD /* JWInfiniteCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionView-prefix.pch"; sourceTree = "<group>"; };
 		E7DA2B55813389F706079286A2A6D1C8 /* Pods-JWInfiniteCollectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWInfiniteCollectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EA8C0DE5E4AD7F6D305D65CBD117495E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBF407120DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCollectionViewFlowLayout+JWPrivate.h"; sourceTree = "<group>"; };
 		EF5F19E70FE65E11641AFE3284F0FBC1 /* Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWInfiniteCollectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F7D7FB1FEF0C5451A6B4C5AF3907661D /* Pods-JWInfiniteCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWInfiniteCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F8675431D6957CC4C91F940DAEDF6557 /* JWInfiniteCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWInfiniteCollectionView.xcconfig; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				98D3592121F367361678B3A7ED57401F /* JWInfiniteCollectionView.m */,
 				A1F1E1C5AAB351FEFE01C165B7A96DD8 /* JWInfiniteCollectionViewDataSourceProxy.h */,
 				FC71BD1A11B52A7EAD922EE7613F7B39 /* JWInfiniteCollectionViewDataSourceProxy.m */,
+				EEBF407120DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h */,
 				7380C165C127B57651E3934B14D6A80A /* JWInfiniteCollectionViewFlowLayout.h */,
 				4863C414428EAECD6D45A3BF421E0EA6 /* JWInfiniteCollectionViewFlowLayout.m */,
 				9327A10D650AEC383637EA3D82BCB6F9 /* Support Files */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0CAB099328595C0FD51CC99A401E9CB /* JWInfiniteCollectionView-umbrella.h in Headers */,
+				EEBF407320DDEE91005C2185 /* JWInfiniteCollectionViewFlowLayout+JWPrivate.h in Headers */,
 				5064D1403B1093C452A4BDADA74A4C7F /* JWInfiniteCollectionView.h in Headers */,
 				ACA68609DC1714BD85DC1D8764BBB688 /* JWInfiniteCollectionViewDataSourceProxy.h in Headers */,
 				3ED67CEC20AC74BFE5BE8E2E7C6AE4E8 /* JWInfiniteCollectionViewFlowLayout.h in Headers */,

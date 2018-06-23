@@ -8,6 +8,7 @@
 
 #import "JWInfiniteCollectionView.h"
 #import "JWInfiniteCollectionViewFlowLayout.h"
+#import "JWInfiniteCollectionViewFlowLayout+JWPrivate.h"
 #import "JWInfiniteCollectionViewDataSourceProxy.h"
 
 @interface JWInfiniteCollectionView ()
@@ -37,15 +38,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     JWInfiniteCollectionViewFlowLayout *layout = (JWInfiniteCollectionViewFlowLayout *)self.collectionViewLayout;
-    CGPoint currentOffset = self.contentOffset;
-    if (self.contentOffset.x < layout.minScrollableContentOffsetX) {
-        self.contentOffset = (CGPoint){layout.itemSpan + layout.itemSpacing + currentOffset.x,
-            currentOffset.y};
-    }
-    else if (self.contentOffset.x > layout.maxScrollableContentOffsetX) {
-        self.contentOffset = (CGPoint){currentOffset.x - layout.itemSpan - layout.itemSpacing,
-            currentOffset.y};
-    }
+    [layout resetContentOffsetIfNeededForCollectionView:self];
 }
 
 @end

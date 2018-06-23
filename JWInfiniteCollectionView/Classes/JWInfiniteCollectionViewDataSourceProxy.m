@@ -17,7 +17,7 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView 
-numberOfItemsInSection:(NSInteger)section {
+     numberOfItemsInSection:(NSInteger)section {
     JWInfiniteCollectionViewFlowLayout *infiniteLayout =
     (JWInfiniteCollectionViewFlowLayout *)collectionView.collectionViewLayout;
     NSInteger numberOfItems = [self numberOfItemsInCollectionView:collectionView];
