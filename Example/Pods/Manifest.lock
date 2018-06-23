@@ -1,5 +1,5 @@
 PODS:
-  - JWInfiniteCollectionView (0.1.1)
+  - JWInfiniteCollectionView (0.1.2)
 
 DEPENDENCIES:
   - JWInfiniteCollectionView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWInfiniteCollectionView: 0445eb348249220ff6e62fd6cb5ed8ecb527239e
+  JWInfiniteCollectionView: e22f82da5bcf51679fb912cd3019a04f6a140ed0
 
 PODFILE CHECKSUM: 8a14abed05010d3153cc8f055cc4d816467ac7b1
 
