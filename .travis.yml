@@ -8,13 +8,13 @@ xcode_workspace: Example/JWInfiniteCollectionView.xcworkspace
 cache: cocoapods
 podfile: Example/Podfile
 # xcode_sdk:  
-xcode_scheme: JWInfiniteCollectionView-Example
+xcode_scheme: JWInfiniteCycleView_Example
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - pod install --project-directory=Example
 script:
-- xcodebuild build -workspace Example/JWInfiniteCollectionView.xcworkspace -scheme JWInfiniteCollectionView-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/JWInfiniteCollectionView.xcworkspace -scheme JWInfiniteCollectionView-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=11.2' ONLY_ACTIVE_ARCH=NO | xcpretty
+- xcodebuild build -workspace Example/JWInfiniteCycleView.xcworkspace -scheme JWInfiniteCycleView-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/JWInfiniteCycleView.xcworkspace -scheme JWInfiniteCycleView-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=11.2' ONLY_ACTIVE_ARCH=NO | xcpretty
 
 - pod lib lint
 

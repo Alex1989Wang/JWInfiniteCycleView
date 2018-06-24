@@ -22,17 +22,17 @@
 		EE7DE65620DF8367005ED6EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE65320DF8367005ED6EB /* Info.plist */; };
 		EE7DE65720DF8367005ED6EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE65320DF8367005ED6EB /* Info.plist */; };
 		EE7DE65920DF83BD005ED6EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7DE65820DF83BD005ED6EB /* XCTest.framework */; };
-		EE7DE66F20DF85B2005ED6EB /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7DE65C20DF85B2005ED6EB /* JWAppDelegate.m */; };
-		EE7DE67020DF85B2005ED6EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE65D20DF85B2005ED6EB /* InfoPlist.strings */; };
-		EE7DE67120DF85B2005ED6EB /* JWMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7DE65F20DF85B2005ED6EB /* JWMainTableViewController.m */; };
-		EE7DE67220DF85B2005ED6EB /* JWInfiniteCycleView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE66020DF85B2005ED6EB /* JWInfiniteCycleView-Info.plist */; };
-		EE7DE67320DF85B2005ED6EB /* JWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7DE66320DF85B2005ED6EB /* JWCollectionViewCell.m */; };
-		EE7DE67420DF85B2005ED6EB /* JWInfiniteCollectionViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7DE66620DF85B2005ED6EB /* JWInfiniteCollectionViewTestController.m */; };
-		EE7DE67520DF85B2005ED6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE66720DF85B2005ED6EB /* LaunchScreen.storyboard */; };
-		EE7DE67620DF85B2005ED6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE66920DF85B2005ED6EB /* Main.storyboard */; };
-		EE7DE67720DF85B2005ED6EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7DE66B20DF85B2005ED6EB /* main.m */; };
-		EE7DE67820DF85B2005ED6EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE66D20DF85B2005ED6EB /* Images.xcassets */; };
 		EEBF407A20DF87C3005C2185 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBF407920DF87C3005C2185 /* Default-568h@2x.png */; };
+		EEBF408F20DF8CD1005C2185 /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF407C20DF8CD1005C2185 /* JWAppDelegate.m */; };
+		EEBF409020DF8CD1005C2185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEBF407D20DF8CD1005C2185 /* InfoPlist.strings */; };
+		EEBF409120DF8CD1005C2185 /* JWMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF407F20DF8CD1005C2185 /* JWMainTableViewController.m */; };
+		EEBF409220DF8CD1005C2185 /* JWInfiniteCycleView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEBF408020DF8CD1005C2185 /* JWInfiniteCycleView-Info.plist */; };
+		EEBF409320DF8CD1005C2185 /* JWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF408320DF8CD1005C2185 /* JWCollectionViewCell.m */; };
+		EEBF409420DF8CD1005C2185 /* JWInfiniteCollectionViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF408620DF8CD1005C2185 /* JWInfiniteCollectionViewTestController.m */; };
+		EEBF409520DF8CD1005C2185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF408720DF8CD1005C2185 /* LaunchScreen.storyboard */; };
+		EEBF409620DF8CD1005C2185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF408920DF8CD1005C2185 /* Main.storyboard */; };
+		EEBF409720DF8CD1005C2185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF408B20DF8CD1005C2185 /* main.m */; };
+		EEBF409820DF8CD1005C2185 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBF408D20DF8CD1005C2185 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,22 +77,22 @@
 		EE7DE65220DF8367005ED6EB /* JWInfiniteCollectionView_ExampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWInfiniteCollectionView_ExampleUITests.m; sourceTree = "<group>"; };
 		EE7DE65320DF8367005ED6EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7DE65820DF83BD005ED6EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EE7DE65C20DF85B2005ED6EB /* JWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
-		EE7DE65E20DF85B2005ED6EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EE7DE65F20DF85B2005ED6EB /* JWMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWMainTableViewController.m; sourceTree = "<group>"; };
-		EE7DE66020DF85B2005ED6EB /* JWInfiniteCycleView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JWInfiniteCycleView-Info.plist"; sourceTree = "<group>"; };
-		EE7DE66320DF85B2005ED6EB /* JWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCollectionViewCell.m; sourceTree = "<group>"; };
-		EE7DE66420DF85B2005ED6EB /* JWInfiniteCollectionViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWInfiniteCollectionViewTestController.h; sourceTree = "<group>"; };
-		EE7DE66520DF85B2005ED6EB /* JWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionViewCell.h; sourceTree = "<group>"; };
-		EE7DE66620DF85B2005ED6EB /* JWInfiniteCollectionViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWInfiniteCollectionViewTestController.m; sourceTree = "<group>"; };
-		EE7DE66820DF85B2005ED6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE7DE66920DF85B2005ED6EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		EE7DE66A20DF85B2005ED6EB /* JWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
-		EE7DE66B20DF85B2005ED6EB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE7DE66C20DF85B2005ED6EB /* JWMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWMainTableViewController.h; sourceTree = "<group>"; };
-		EE7DE66D20DF85B2005ED6EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EE7DE66E20DF85B2005ED6EB /* JWInfiniteCycleView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCycleView-Prefix.pch"; sourceTree = "<group>"; };
 		EEBF407920DF87C3005C2185 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EEBF407C20DF8CD1005C2185 /* JWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
+		EEBF407E20DF8CD1005C2185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEBF407F20DF8CD1005C2185 /* JWMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWMainTableViewController.m; sourceTree = "<group>"; };
+		EEBF408020DF8CD1005C2185 /* JWInfiniteCycleView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JWInfiniteCycleView-Info.plist"; sourceTree = "<group>"; };
+		EEBF408320DF8CD1005C2185 /* JWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCollectionViewCell.m; sourceTree = "<group>"; };
+		EEBF408420DF8CD1005C2185 /* JWInfiniteCollectionViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWInfiniteCollectionViewTestController.h; sourceTree = "<group>"; };
+		EEBF408520DF8CD1005C2185 /* JWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionViewCell.h; sourceTree = "<group>"; };
+		EEBF408620DF8CD1005C2185 /* JWInfiniteCollectionViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWInfiniteCollectionViewTestController.m; sourceTree = "<group>"; };
+		EEBF408820DF8CD1005C2185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEBF408920DF8CD1005C2185 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EEBF408A20DF8CD1005C2185 /* JWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
+		EEBF408B20DF8CD1005C2185 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEBF408C20DF8CD1005C2185 /* JWMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWMainTableViewController.h; sourceTree = "<group>"; };
+		EEBF408D20DF8CD1005C2185 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEBF408E20DF8CD1005C2185 /* JWInfiniteCycleView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWInfiniteCycleView-Prefix.pch"; sourceTree = "<group>"; };
 		FB23A7357F79A782CBF552D0 /* Pods-JWInfiniteCycleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWInfiniteCycleView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWInfiniteCycleView_Example/Pods-JWInfiniteCycleView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,7 +136,7 @@
 			children = (
 				EEBF407920DF87C3005C2185 /* Default-568h@2x.png */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				EE7DE65B20DF85B2005ED6EB /* Examples For JWInfiniteCycleView */,
+				EEBF407B20DF8CD1005C2185 /* Example */,
 				6003F5B5195388D20070C39A /* Tests */,
 				EE7DE65120DF8367005ED6EB /* JWInfiniteCycleView_ExampleUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -220,40 +220,40 @@
 			path = JWInfiniteCycleView_ExampleUITests;
 			sourceTree = "<group>";
 		};
-		EE7DE65B20DF85B2005ED6EB /* Examples For JWInfiniteCycleView */ = {
+		EEBF407B20DF8CD1005C2185 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				EE7DE65C20DF85B2005ED6EB /* JWAppDelegate.m */,
-				EE7DE65D20DF85B2005ED6EB /* InfoPlist.strings */,
-				EE7DE65F20DF85B2005ED6EB /* JWMainTableViewController.m */,
-				EE7DE66020DF85B2005ED6EB /* JWInfiniteCycleView-Info.plist */,
-				EE7DE66120DF85B2005ED6EB /* TestExamples */,
-				EE7DE66720DF85B2005ED6EB /* LaunchScreen.storyboard */,
-				EE7DE66920DF85B2005ED6EB /* Main.storyboard */,
-				EE7DE66A20DF85B2005ED6EB /* JWAppDelegate.h */,
-				EE7DE66B20DF85B2005ED6EB /* main.m */,
-				EE7DE66C20DF85B2005ED6EB /* JWMainTableViewController.h */,
-				EE7DE66D20DF85B2005ED6EB /* Images.xcassets */,
-				EE7DE66E20DF85B2005ED6EB /* JWInfiniteCycleView-Prefix.pch */,
+				EEBF407C20DF8CD1005C2185 /* JWAppDelegate.m */,
+				EEBF407D20DF8CD1005C2185 /* InfoPlist.strings */,
+				EEBF407F20DF8CD1005C2185 /* JWMainTableViewController.m */,
+				EEBF408020DF8CD1005C2185 /* JWInfiniteCycleView-Info.plist */,
+				EEBF408120DF8CD1005C2185 /* TestExamples */,
+				EEBF408720DF8CD1005C2185 /* LaunchScreen.storyboard */,
+				EEBF408920DF8CD1005C2185 /* Main.storyboard */,
+				EEBF408A20DF8CD1005C2185 /* JWAppDelegate.h */,
+				EEBF408B20DF8CD1005C2185 /* main.m */,
+				EEBF408C20DF8CD1005C2185 /* JWMainTableViewController.h */,
+				EEBF408D20DF8CD1005C2185 /* Images.xcassets */,
+				EEBF408E20DF8CD1005C2185 /* JWInfiniteCycleView-Prefix.pch */,
 			);
-			path = "Examples For JWInfiniteCycleView";
+			path = Example;
 			sourceTree = "<group>";
 		};
-		EE7DE66120DF85B2005ED6EB /* TestExamples */ = {
+		EEBF408120DF8CD1005C2185 /* TestExamples */ = {
 			isa = PBXGroup;
 			children = (
-				EE7DE66220DF85B2005ED6EB /* RandomDataSet */,
+				EEBF408220DF8CD1005C2185 /* RandomDataSet */,
 			);
 			path = TestExamples;
 			sourceTree = "<group>";
 		};
-		EE7DE66220DF85B2005ED6EB /* RandomDataSet */ = {
+		EEBF408220DF8CD1005C2185 /* RandomDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				EE7DE66320DF85B2005ED6EB /* JWCollectionViewCell.m */,
-				EE7DE66420DF85B2005ED6EB /* JWInfiniteCollectionViewTestController.h */,
-				EE7DE66520DF85B2005ED6EB /* JWCollectionViewCell.h */,
-				EE7DE66620DF85B2005ED6EB /* JWInfiniteCollectionViewTestController.m */,
+				EEBF408320DF8CD1005C2185 /* JWCollectionViewCell.m */,
+				EEBF408420DF8CD1005C2185 /* JWInfiniteCollectionViewTestController.h */,
+				EEBF408520DF8CD1005C2185 /* JWCollectionViewCell.h */,
+				EEBF408620DF8CD1005C2185 /* JWInfiniteCollectionViewTestController.m */,
 			);
 			path = RandomDataSet;
 			sourceTree = "<group>";
@@ -366,12 +366,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7DE65620DF8367005ED6EB /* Info.plist in Resources */,
-				EE7DE67620DF85B2005ED6EB /* Main.storyboard in Resources */,
-				EE7DE67520DF85B2005ED6EB /* LaunchScreen.storyboard in Resources */,
-				EE7DE67820DF85B2005ED6EB /* Images.xcassets in Resources */,
-				EE7DE67220DF85B2005ED6EB /* JWInfiniteCycleView-Info.plist in Resources */,
+				EEBF409020DF8CD1005C2185 /* InfoPlist.strings in Resources */,
+				EEBF409820DF8CD1005C2185 /* Images.xcassets in Resources */,
 				EEBF407A20DF87C3005C2185 /* Default-568h@2x.png in Resources */,
-				EE7DE67020DF85B2005ED6EB /* InfoPlist.strings in Resources */,
+				EEBF409620DF8CD1005C2185 /* Main.storyboard in Resources */,
+				EEBF409520DF8CD1005C2185 /* LaunchScreen.storyboard in Resources */,
+				EEBF409220DF8CD1005C2185 /* JWInfiniteCycleView-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,11 +455,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7DE67720DF85B2005ED6EB /* main.m in Sources */,
-				EE7DE67320DF85B2005ED6EB /* JWCollectionViewCell.m in Sources */,
-				EE7DE67420DF85B2005ED6EB /* JWInfiniteCollectionViewTestController.m in Sources */,
-				EE7DE66F20DF85B2005ED6EB /* JWAppDelegate.m in Sources */,
-				EE7DE67120DF85B2005ED6EB /* JWMainTableViewController.m in Sources */,
+				EEBF409720DF8CD1005C2185 /* main.m in Sources */,
+				EEBF409320DF8CD1005C2185 /* JWCollectionViewCell.m in Sources */,
+				EEBF409420DF8CD1005C2185 /* JWInfiniteCollectionViewTestController.m in Sources */,
+				EEBF408F20DF8CD1005C2185 /* JWAppDelegate.m in Sources */,
+				EEBF409120DF8CD1005C2185 /* JWMainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,18 +503,18 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		EE7DE65D20DF85B2005ED6EB /* InfoPlist.strings */ = {
+		EEBF407D20DF8CD1005C2185 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE7DE65E20DF85B2005ED6EB /* en */,
+				EEBF407E20DF8CD1005C2185 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		EE7DE66720DF85B2005ED6EB /* LaunchScreen.storyboard */ = {
+		EEBF408720DF8CD1005C2185 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE7DE66820DF85B2005ED6EB /* Base */,
+				EEBF408820DF8CD1005C2185 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -628,8 +628,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y39R442P5T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Examples For JWInfiniteCycleView/JWInfiniteCycleView-Prefix.pch";
-				INFOPLIST_FILE = "Examples For JWInfiniteCycleView/JWInfiniteCycleView-Info.plist";
+				GCC_PREFIX_HEADER = "Example/JWInfiniteCycleView-Prefix.pch";
+				INFOPLIST_FILE = "Example/JWInfiniteCycleView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -646,8 +646,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y39R442P5T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Examples For JWInfiniteCycleView/JWInfiniteCycleView-Prefix.pch";
-				INFOPLIST_FILE = "Examples For JWInfiniteCycleView/JWInfiniteCycleView-Info.plist";
+				GCC_PREFIX_HEADER = "Example/JWInfiniteCycleView-Prefix.pch";
+				INFOPLIST_FILE = "Example/JWInfiniteCycleView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
