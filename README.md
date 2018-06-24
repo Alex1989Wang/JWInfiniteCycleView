@@ -1,4 +1,10 @@
-# JWInfiniteCollectionView
+
+
+# Project Renaming
+
+This project was originally named "JWInfiniteCollectionView" to provide basic infrastructure for infinite scrolling. Now it's renamed to "JWInfiniteCycleView", because, starting from 0.2.0, infinite autmatic cycling capabilities will be continuously added to it. 
+
+## JWInfiniteCollectionView
 
 [![CI Status](http://img.shields.io/travis/Alex1989Wang/JWInfiniteCollectionView.svg?style=flat)](https://travis-ci.org/Alex1989Wang/JWInfiniteCollectionView)
 [![Version](https://img.shields.io/cocoapods/v/JWInfiniteCollectionView.svg?style=flat)](http://cocoapods.org/pods/JWInfiniteCollectionView)
