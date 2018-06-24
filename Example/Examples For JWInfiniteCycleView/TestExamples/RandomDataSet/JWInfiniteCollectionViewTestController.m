@@ -91,7 +91,11 @@ UICollectionViewDelegate>
         _infiniteCollection.indicatorStyle = UIScrollViewIndicatorStyleWhite;
         _infiniteCollection.alwaysBounceVertical = NO;
         _infiniteCollection.bounces = NO;
-//        _infiniteCollection.pagingEnabled = YES;
+        if (@available(iOS 11.0, *)) {
+            _infiniteCollection.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        } else {
+            self.automaticallyAdjustsScrollViewInsets = NO;
+        }
     }
     return _infiniteCollection;
 }

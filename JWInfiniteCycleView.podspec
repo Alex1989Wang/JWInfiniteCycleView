@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JWInfiniteCollectionView'
+  s.name             = 'JWInfiniteCycleView'
   s.version          = '0.1.2'
-  s.summary          = 'JWInfiniteCollectionView provides a convenient way to have a infinitely-scrolling collection view.'
+  s.summary          = 'JWInfiniteCycleView provides a convenient way to have a infinitely-scrolling collection view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,19 +24,19 @@ Pod::Spec.new do |s|
   JWInfiniteCollectionView pads only a few extra duplicated items both at the start and end of your data set. In this way, it avoids the some overhead introduced by having a large duplicated data set. 
                        DESC
 
-  s.homepage         = 'https://github.com/Alex1989Wang/JWInfiniteCollectionView'
+  s.homepage         = 'https://github.com/Alex1989Wang/JWInfiniteCycleView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex1989Wang' => 'alex1989wang@gmail.com' }
-  s.source           = { :git => 'https://github.com/Alex1989Wang/JWInfiniteCollectionView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Alex1989Wang/JWInfiniteCycleView.git', :tag => s.version.to_s }
   s.social_media_url = 'http://www.awsomejiang.com/'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JWInfiniteCollectionView/Classes/**/*'
+  s.source_files = 'JWInfiniteCycleView/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'JWInfiniteCollectionView' => ['JWInfiniteCollectionView/Assets/*.png']
+  #   'JWInfiniteCycleView' => ['JWInfiniteCycleView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

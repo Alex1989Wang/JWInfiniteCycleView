@@ -1,16 +1,16 @@
 PODS:
-  - JWInfiniteCollectionView (0.1.2)
+  - JWInfiniteCycleView (0.1.2)
 
 DEPENDENCIES:
-  - JWInfiniteCollectionView (from `../`)
+  - JWInfiniteCycleView (from `../`)
 
 EXTERNAL SOURCES:
-  JWInfiniteCollectionView:
+  JWInfiniteCycleView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWInfiniteCollectionView: e22f82da5bcf51679fb912cd3019a04f6a140ed0
+  JWInfiniteCycleView: a14835896794be59408ba6d732aac947b87d92d9
 
-PODFILE CHECKSUM: 8a14abed05010d3153cc8f055cc4d816467ac7b1
+PODFILE CHECKSUM: 6e0f3677d54a12cf231e656048fbaa47c2d4933f
 
 COCOAPODS: 1.5.3

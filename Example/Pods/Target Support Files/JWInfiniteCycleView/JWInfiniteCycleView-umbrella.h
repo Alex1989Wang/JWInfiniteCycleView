@@ -14,6 +14,6 @@
 #import "JWInfiniteCollectionViewDataSourceProxy.h"
 #import "JWInfiniteCollectionViewFlowLayout.h"
 
-FOUNDATION_EXPORT double JWInfiniteCollectionViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char JWInfiniteCollectionViewVersionString[];
+FOUNDATION_EXPORT double JWInfiniteCycleViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char JWInfiniteCycleViewVersionString[];
 

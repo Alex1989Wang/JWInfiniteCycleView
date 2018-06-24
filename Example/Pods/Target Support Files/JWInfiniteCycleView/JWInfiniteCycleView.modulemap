@@ -1,0 +1,6 @@
+framework module JWInfiniteCycleView {
+  umbrella header "JWInfiniteCycleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,10 +1,10 @@
 use_frameworks!
 platform :ios, '8.0'
 
-target 'JWInfiniteCollectionView_Example' do
-  pod 'JWInfiniteCollectionView', :path => '../'
+target 'JWInfiniteCycleView_Example' do
+  pod 'JWInfiniteCycleView', :path => '../'
 
-  target 'JWInfiniteCollectionView_Tests' do
+  target 'JWInfiniteCycleView_Tests' do
     inherit! :search_paths
 
     

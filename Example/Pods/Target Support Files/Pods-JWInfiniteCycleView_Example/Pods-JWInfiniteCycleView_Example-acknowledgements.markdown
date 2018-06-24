@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## JWInfiniteCollectionView
+## JWInfiniteCycleView
 
 Copyright (c) 2018 Alex1989Wang <alex1989wang@foxmail.com>
 

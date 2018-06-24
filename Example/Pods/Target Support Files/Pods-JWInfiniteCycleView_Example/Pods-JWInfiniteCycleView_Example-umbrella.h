@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_JWInfiniteCollectionView_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_JWInfiniteCollectionView_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_JWInfiniteCycleView_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_JWInfiniteCycleView_ExampleVersionString[];
 
