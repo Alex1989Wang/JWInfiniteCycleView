@@ -1,9 +1,5 @@
 
 
-# Project Renaming
-
-This project was originally named "JWInfiniteCollectionView" to provide basic infrastructure for infinite scrolling. Now it's renamed to "JWInfiniteCycleView", because, starting from 0.2.0, infinite autmatic cycling capabilities will be continuously added to it. 
-
 ## JWInfiniteCollectionView
 
 [![CI Status](http://img.shields.io/travis/Alex1989Wang/JWInfiniteCollectionView.svg?style=flat)](https://travis-ci.org/Alex1989Wang/JWInfiniteCollectionView)
@@ -35,7 +31,7 @@ align = center
 />
 </div>
 
-For more details, you can [read this blog post](http://www.awsomejiang.com/2018/03/24/Infinite-Scrolling-and-the-Tiling-Logic/).
+For more details, you can [read this blog post](https://github.com/Alex1989Wang/Blogs/blob/master/contents/2018-03-24-Infinite-Scrolling-and-the-Tiling-Logic.md).
 
 ## Example
 
